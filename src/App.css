@@ -1,0 +1,56 @@
+.bannerText{
+    color: green;
+    justify-content: center;
+    display: flex;
+   margin-top: 300px;
+}
+
+.slogan{
+    color: violet;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+}
+
+.main{
+    
+    height: 50vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* background-image: url(C:\Users\Anand\OneDrive\Desktop\balaji\component_creation\component-project\src\assets\sololevelling_lvl2.jpg); */
+    
+    background-position: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: black; */
+    height: 100vh;
+    
+}
+
+.code{
+    color: yellow;
+}
+
+.mode{
+    color: pink;
+}
+
+.student table{
+
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.student table td,.student table th{
+    text-align: left;
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+    width: 100px;
+    color: #ccc;
+}
